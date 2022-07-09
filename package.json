@@ -6,7 +6,11 @@
     "type": "git",
     "url": "git+https://github.com/olehmelnyk/price-calculator.git"
   },
-  "keywords": ["price-calculator", "nextjs", "nx"],
+  "keywords": [
+    "price-calculator",
+    "nextjs",
+    "nx"
+  ],
   "author": "Oleh Melnyk <olehmelnyk@gmail.com>",
   "bugs": {
     "url": "https://github.com/olehmelnyk/price-calculator/issues"
@@ -19,6 +23,12 @@
   },
   "private": true,
   "dependencies": {
+    "@emotion/cache": "^11.9.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.7",
     "@nrwl/next": "14.4.2",
     "core-js": "^3.6.5",
     "next": "12.1.6",
